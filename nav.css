@@ -1,0 +1,74 @@
+
+head{
+    top: 0px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+}
+a{
+text-decoration: none;
+
+}
+.signlog{
+    color: white;
+}
+li{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 100px;
+    margin-left: 345px;
+    height: 80px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+nav ul{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+nav li{
+    padding: 15px;
+}
+header nav li a{
+    display: inline-block;
+    margin-top: 4px;
+  }
+nav li a{
+    font-size: 0.89rem;
+  }
+
+#sign{
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 6px 0px 0px 6px;
+    margin: 20px 5px;
+    height: 40px;
+}
+#login{
+    border: 1px solid blue;
+    background-color: blue;
+    border-radius: 0px 6px 6px 0px;
+    margin: 20px -4px;
+    height: 40px;
+    margin-right: 300px;
+
+}
+.buttons:hover{
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    border-radius: 6px;
+    margin: 20px 0;
+    height: 20px;
+    display: flex;
+}
+.buttons a{
+    color: #686262;
+}
+
